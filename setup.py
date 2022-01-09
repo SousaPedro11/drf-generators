@@ -8,13 +8,13 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
     name='drf-generators-latest',
-    version='0.6.0',
+    version='0.8.0',
 
     description='Generate DRF Serializers, Views, and urls for your API application.',
     long_description=README,
 
     url='https://github.com/SousaPedro11/drf-generators',
-    download_url='https://github.com/SousaPedro11/drf-generators/archive/refs/tags/0.6.0.zip',
+    download_url='https://github.com/SousaPedro11/drf-generators/archive/refs/tags/0.8.0.zip',
     author='Sousapedro11',
     author_email='ppls2106@gmail.com',
 
