@@ -7,16 +7,16 @@ with open(os.path.join(os.path.dirname(__file__), 'README.rst')) as readme:
 os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
-    name='drf-generators',
-    version='0.5.0',
+    name='drf-generators-latest',
+    version='0.6.0',
 
     description='Generate DRF Serializers, Views, and urls for your API application.',
     long_description=README,
 
-    url='https://github.com/brobin/drf-generators',
-    download_url='https://github.com/brobin/drf-generators/archive/0.5.0.zip',
-    author='Tobin Brown',
-    author_email='tobin@brobin.me',
+    url='https://github.com/SousaPedro11/drf-generators',
+    download_url='https://github.com/SousaPedro11/drf-generators/archive/refs/tags/0.6.0.zip',
+    author='Sousapedro11',
+    author_email='ppls2106@gmail.com',
 
     license='MIT',
 
