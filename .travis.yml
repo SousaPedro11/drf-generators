@@ -4,10 +4,13 @@ python:
   - "3.6"
   - "3.7"
   - "3.8"
+  - "3.9"
+  - "3.10"
 env:
   - DJANGO=1.11 DRF=3.11
   - DJANGO=2.2 DRF=3.11
-  - DJANGO=3.0 DRF=3.11
+  - DJANGO=3.0 DRF=3.13
+  - DJANGO=4.0 DRF=3.13
 matrix:
   exclude:
     - python: "3.5"

@@ -14,13 +14,18 @@ setup(
     long_description=README,
 
     url='https://github.com/brobin/drf-generators',
-    download_url = 'https://github.com/brobin/drf-generators/archive/0.5.0.zip',
+    download_url='https://github.com/brobin/drf-generators/archive/0.5.0.zip',
     author='Tobin Brown',
     author_email='tobin@brobin.me',
 
     license='MIT',
 
-    packages=['drf_generators', 'drf_generators.templates', 'drf_generators.management', 'drf_generators.management.commands'],
+    packages=[
+        'drf_generators',
+        'drf_generators.templates',
+        'drf_generators.management',
+        'drf_generators.management.commands'
+    ],
     include_package_data=True,
     install_requires=['Django>=1.11'],
 
@@ -29,6 +34,7 @@ setup(
         'Framework :: Django :: 1.11',
         'Framework :: Django :: 2.2',
         'Framework :: Django :: 3.0',
+        'Framework :: Django :: 4.0',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: MIT License',
         'Operating System :: OS Independent',
@@ -37,6 +43,8 @@ setup(
         'Programming Language :: Python :: 3.6',
         'Programming Language :: Python :: 3.7',
         'Programming Language :: Python :: 3.8',
+        'Programming Language :: Python :: 3.9',
+        'Programming Language :: Python :: 3.10',
         'Topic :: Internet :: WWW/HTTP',
     ],
 

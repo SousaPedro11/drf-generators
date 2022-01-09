@@ -274,6 +274,6 @@ MIT License. See `LICENSE <https://github.com/brobin/drf-generators/blob/master/
     :target: http://djangoproject.com/
     :alt: Django 1.11, 2.2, 3.0
 
-.. |drf| image:: https://img.shields.io/badge/DRF-3.11-orange.svg?style=flat-square
+.. |drf| image:: https://img.shields.io/badge/DRF-3.11, 3.13-orange.svg?style=flat-square
     :target: http://www.django-rest-framework.org/
-    :alt: DRF 3.11
+    :alt: DRF 3.11, 3.13
